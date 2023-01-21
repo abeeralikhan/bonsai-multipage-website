@@ -41,8 +41,8 @@
   --box-shadow-01: 0px 4px 10px -5px rgba(0, 0, 0, 0.25);
 
   /* line-height */
-  --lh-01: 1.3;
-  --lh-02: 1.6;
+  --lh-01: 40px;
+  --lh-02: 18px;
   --lh-03: 1.9;
 
   /* border */
@@ -86,7 +86,7 @@ body {
 /* Set core body defaults */
 body {
   font-family: var(--ff-primary);
-  font-size: var(--fs-body);
+  color: var(--clr-neutral-01);
   line-height: 1;
   text-rendering: optimizeSpeed;
 }
@@ -123,3 +123,21 @@ svg {
 - Mobile: 375px
 - Desktop: 1440px
 */
+
+/* Utility Classes */
+.container {
+  padding-inline: 2.05rem;
+}
+
+.primary-heading {
+  font-size: var(--fs-900);
+  font-weight: var(--fw-medium);
+  line-height: var(--lh-01);
+}
+
+.description {
+  font-size: var(--fs-400);
+  font-weight: var(--fw-light);
+  line-height: var(--lh-02);
+  max-width: 34.8rem;
+}

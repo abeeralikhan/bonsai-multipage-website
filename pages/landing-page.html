@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="../css/general.css" />
+    <link rel="stylesheet" href="../css/landing-page.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -14,10 +15,52 @@
     <title>Bonsai - Landing Page</title>
   </head>
   <body>
-    <header></header>
+    <header class="header">
+      <div class="navbar">
+        <div class="navbar-logo">
+          <a href="#">
+            <img src="../assets/icons/bonsai-logo-01.svg" alt="logo" />
+          </a>
+          <a href="#" style="display: none">
+            <img src="../assets/icons/bonsai-logo-02.svg" alt="logo" />
+          </a>
+        </div>
+        <div class="navbar-menu">
+          <img
+            class="navbar-open"
+            src="../assets/icons/hamburger-icon.svg"
+            alt="menu"
+          />
+          <img
+            class="navbar-close"
+            style="display: none"
+            src="../assets/icons/close.svg"
+            alt="menu"
+          />
+        </div>
+        <nav class="nav" style="display: none"></nav>
+      </div>
+    </header>
     <main>
       <section class="hero">
-        <div class="container"></div>
+        <div class="container">
+          <div class="hero-image">
+            <img src="../assets/images/hero-image.svg" alt="hero-image" />
+          </div>
+          <div class="hero-desc">
+            <h1 class="primary-heading">
+              Everything you need to run your business.
+            </h1>
+            <p class="description">
+              Bonsai's all-in-one product suite with smart automation lets you
+              focus on your passion, not your paperwork.
+            </p>
+          </div>
+          <div class="hero-cta">
+            <input type="text" placeholder="Enter your email" />
+            <button>Start free</button>
+          </div>
+        </div>
       </section>
       <!-- HERO SECTION -->
 
