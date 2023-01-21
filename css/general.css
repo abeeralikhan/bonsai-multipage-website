@@ -1,0 +1,125 @@
+:root {
+  /* colors */
+  --clr-primary-01: #ffffff; /* FG */
+  --clr-primary-02: #f2faff; /* CTA BG */
+
+  --clr-accent-01: #00b388;
+
+  --clr-neutral-01: #4c4d5f; /* FG */
+  --clr-neutral-02: #9a9a9a; /* Hero CTA FG */
+  --clr-neutral-02: #fdfdfe; /* Review BG */
+  --clr-neutral-02: #b7b7b7; /* Line in nav */
+
+  /* font family */
+  --ff-primary: "Inter", sans-serif;
+
+  /* font weights */
+  --fw-light: 300;
+  --fw-regular: 400;
+  --fw-medium: 500;
+  --fw-semi-bold: 600;
+  --fw-bold: 700;
+
+  /* font sizes */
+  --fs-100: 1.1rem;
+  --fs-200: 1.3rem;
+  --fs-300: 1.4rem;
+  --fs-400: 1.5rem;
+  --fs-500: 1.6rem;
+  --fs-600: 2.1rem;
+  --fs-700: 2.3rem;
+  --fs-800: 2.7rem;
+  --fs-900: 3.3rem;
+  --fs-1000: 3.6rem;
+  --fs-1100: 6.9rem;
+
+  /* radius */
+  --border-rad-01: 4px;
+  --border-rad-02: 50px;
+
+  /* Box Shadow */
+  --box-shadow-01: 0px 4px 10px -5px rgba(0, 0, 0, 0.25);
+
+  /* line-height */
+  --lh-01: 1.3;
+  --lh-02: 1.6;
+  --lh-03: 1.9;
+
+  /* border */
+  --border-01: 0.1px solid var(--clr-neutral-01);
+}
+
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Remove default margin */
+* {
+  margin: 0;
+  padding: 0;
+  font: inherit;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+/* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
+ul[role="list"],
+ol[role="list"] {
+  list-style: none;
+}
+
+/* Set core root defaults */
+html:focus-within {
+  scroll-behavior: smooth;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+/* Set core body defaults */
+body {
+  font-family: var(--ff-primary);
+  font-size: var(--fs-body);
+  line-height: 1;
+  text-rendering: optimizeSpeed;
+}
+
+/* A elements that don't have a class get default styles */
+a:not([class]) {
+  text-decoration-skip-ink: auto;
+}
+
+/* Make images easier to work with */
+img,
+picture,
+svg {
+  width: 100%;
+}
+
+/* Remove all animations, transitions and smooth scroll for people that prefer not to see them */
+@media (prefers-reduced-motion: reduce) {
+  html:focus-within {
+    scroll-behavior: auto;
+  }
+
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* 
+- Mobile: 375px
+- Desktop: 1440px
+*/
