@@ -124,6 +124,23 @@ svg {
 - Desktop: 1440px
 */
 
+/* Header */
+.navbar {
+  /* background-color: green; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 3.4rem 5.6rem;
+}
+
+.navbar-menu {
+  cursor: pointer;
+}
+
+.header {
+  margin-bottom: 6.2rem;
+}
+
 /* Utility Classes */
 .container {
   padding-inline: 2.05rem;
