@@ -1,0 +1,120 @@
+/* PRICING SECTION */
+.pricing .secondary-heading {
+  margin-bottom: 1.7rem;
+}
+
+.pricing-cards {
+  display: flex;
+  flex-direction: column;
+  gap: 3.6rem;
+}
+
+.pricing-card {
+  /* background-color: red; */
+  padding: 2.4rem 2.1rem;
+  border-radius: var(--border-rad-01);
+  border: var(--border-01);
+  box-shadow: var(--box-shadow-01);
+}
+
+.card-title {
+  font-size: var(--fs-700);
+  font-weight: var(--fw-semi-bold);
+  margin-bottom: 0.8rem;
+}
+
+.card-desc {
+  font-size: var(--fs-300);
+  font-weight: var(--fw-regular);
+  max-width: 255px;
+  margin-bottom: 2.6rem;
+}
+
+.card-pricing {
+  font-size: var(--fs-1100);
+  font-weight: var(--fw-semi-bold);
+  position: relative;
+  margin-left: 2.4rem;
+}
+
+.card-pricing::before {
+  content: "$";
+  font-size: var(--fs-800);
+  font-weight: var(--fw-regular);
+  position: absolute;
+  top: 1.4rem;
+  left: -2.3rem;
+}
+
+.card-pricing::after {
+  content: "/MONTH";
+  font-size: var(--fs-700);
+  font-weight: var(--fw-regular);
+  position: relative;
+  top: 1rem;
+  left: 1.4rem;
+}
+
+.card-items {
+  border-top: 2px solid var(--clr-accent-01);
+  margin-top: 1.4rem;
+  margin-bottom: 2.9rem;
+  padding-top: 1.6rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.card-item {
+  display: flex;
+  gap: 0.975rem;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.card-item > img {
+  width: 1.6rem;
+  height: 1.6rem;
+}
+
+.card-item > p {
+  font-size: var(--fs-400);
+  font-weight: var(--fw-regular);
+}
+
+.card-cta {
+  background-color: var(--clr-accent-01);
+  font-size: var(--fs-300);
+  font-weight: var(--fw-bold);
+  padding-block: 1.55rem;
+  width: 100%;
+}
+
+/* CTA SECTION */
+/* CTA SECTION */
+.cta > .container {
+  background-color: var(--clr-primary-02);
+  margin-inline: 2.1rem;
+  padding: 3.5rem 5.7rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.cta p {
+  font-weight: var(--fw-regular);
+  font-size: var(--fs-1000);
+  line-height: var(--lh-01);
+  text-align: center;
+  margin-bottom: 1.6rem;
+}
+
+.cta p > span {
+  color: var(--clr-accent-01);
+}
+
+.btn-cta {
+  background-color: var(--clr-accent-01);
+  padding: 1.2rem 2.3rem;
+}
