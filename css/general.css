@@ -38,15 +38,16 @@
   --border-rad-02: 50px;
 
   /* Box Shadow */
-  --box-shadow-01: 0px 4px 10px -5px rgba(0, 0, 0, 0.25);
+  --box-shadow-01: 0px 4px 10px -5px rgba(0, 0, 0, 0.13);
 
   /* line-height */
   --lh-01: 40px;
-  --lh-02: 18px;
-  --lh-03: 1.9;
+  --lh-02: 25px;
+  --lh-03: 18px;
+  --lh-04: 16px;
 
   /* border */
-  --border-01: 0.1px solid var(--clr-neutral-01);
+  --border-01: 0.1px solid #dfdfdf;
 }
 
 /* Box sizing rules */
@@ -119,6 +120,10 @@ svg {
   }
 }
 
+button {
+  border: none;
+}
+
 /* 
 - Mobile: 375px
 - Desktop: 1440px
@@ -152,9 +157,35 @@ svg {
   line-height: var(--lh-01);
 }
 
+.secondary-heading {
+  font-size: var(--fs-600);
+  font-weight: var(--fw-medium);
+  line-height: var(--lh-02);
+  text-align: center;
+}
+
+.tertiary-heading {
+  font-size: var(--fs-300);
+  font-weight: var(--fw-semi-bold);
+  line-height: var(--lh-03);
+}
+
 .description {
   font-size: var(--fs-400);
   font-weight: var(--fw-light);
-  line-height: var(--lh-02);
+  line-height: var(--lh-03);
   max-width: 34.8rem;
+}
+
+section {
+  margin-bottom: 8rem;
+}
+
+.btn {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: var(--fs-100);
+  font-weight: var(--fw-regular);
+  border-radius: var(--border-rad-01);
+  color: var(--clr-primary-01);
 }
