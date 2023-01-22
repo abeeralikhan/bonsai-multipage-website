@@ -174,7 +174,7 @@ button {
   font-size: var(--fs-400);
   font-weight: var(--fw-light);
   line-height: var(--lh-03);
-  max-width: 34.8rem;
+  min-width: 34.8rem;
 }
 
 section {

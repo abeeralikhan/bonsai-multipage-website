@@ -6,7 +6,7 @@
 .pricing-cards {
   display: flex;
   flex-direction: column;
-  gap: 3.6rem;
+  gap: 5rem;
 }
 
 .pricing-card {
