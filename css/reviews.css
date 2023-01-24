@@ -72,29 +72,3 @@ h4 {
   line-height: 18px;
   /* color: #4c4d5f; */
 }
-
-footer {
-  /* margin: 5rem 0 0 14rem; */
-  display: flex;
-  justify-content: flex-start;
-  flex-direction: column;
-}
-
-.footer-heading {
-  margin-bottom: 25px;
-  /* font-style: normal; */
-  font-weight: 600;
-  font-size: 14px;
-  line-height: 17px;
-  /* color: #4c4d5f; */
-}
-
-.footer-types {
-  text-align: left;
-  font-style: normal;
-  font-weight: 300;
-  font-size: 13px;
-  line-height: 22px;
-  color: #8a8b8d;
-  text-decoration: none;
-}

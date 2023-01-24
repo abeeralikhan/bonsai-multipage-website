@@ -15,30 +15,38 @@
     <title>Bonsai - Pricing Page</title>
   </head>
   <body>
-    <header class="header">
+    <header class="header container">
       <div class="navbar">
         <div class="navbar-logo">
-          <a href="#">
-            <img src="../assets/icons/bonsai-logo-01.svg" alt="logo" />
+          <a href="../index.html">
+            <img class="navbar-open logo" src="../assets/icons/bonsai-logo-01.svg" alt="logo" />
           </a>
-          <a href="#" style="display: none">
+          <a class="navbar-close hidden logo" href="../index.html">
             <img src="../assets/icons/bonsai-logo-02.svg" alt="logo" />
           </a>
         </div>
-        <div class="navbar-menu">
+        <div class="navbar-controls">
           <img
-            class="navbar-open"
+            class="navbar-open control"
             src="../assets/icons/hamburger-icon.svg"
             alt="menu"
           />
           <img
-            class="navbar-close"
-            style="display: none"
+            class="navbar-close hidden control"
             src="../assets/icons/close.svg"
             alt="menu"
           />
         </div>
-        <nav class="nav" style="display: none"></nav>
+        <nav class="navbar-menu hidden">
+          <ul class="nav-links">
+            <li class="nav-link"><a href="#">Products</a></li>
+            <li class="nav-link"><a href="#">Templates</a></li>
+            <li class="nav-link"><a href="./pricing-page.html">Pricing</a></li>
+            <li class="nav-link"><a href="./reviews.html">Reviews</a></li>
+            <li class="nav-link btn btn-login"><a href="#">Log in</a></li>
+            <li class="nav-link btn btn-cta"><a href="#">Start free</a></li>
+          </ul>
+        </nav>
       </div>
     </header>
     <main>
@@ -186,6 +194,26 @@
         </div>
       </section>
     </main>
-    <footer></footer>
+    <footer class="container">
+      <h3 class="footer-heading">PRODUCT</h3>
+      <a class="footer-types" href="#">
+        Proposals <br />Contracts <br />Invoicing <br />Client CRM <br />Time
+        Tracking <br />Forms<br />Accounting <br />
+        Bonsai Tax<br />Bonsai Cash<br />
+      </a>
+      <h3 class="footer-heading">FREE RESOURCES</h3>
+      <a class="footer-types" href="#">
+        Freelance Resources <br />Freelance Blog by Bonsai <br />How to Write a
+        Contract <br />Online Signature Maker <br />Self-Employed Taxes Hub
+        <br />Self-Employed Tax Calculator <br />
+      </a>
+      <h3 class="footer-heading">BONSAI</h3>
+      <a class="footer-types" href="#">
+        About <br />Careers <br />Support <br />Linkedln <br />Twitter
+        <br />Privacy Policy<br />Legal <br />
+        Comparisons<br />Write for Us
+      </a>
+    </footer>
   </body>
+  <script src="../main.js" defer></script>
 </html>
